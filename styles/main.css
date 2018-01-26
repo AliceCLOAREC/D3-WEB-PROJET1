@@ -1,0 +1,152 @@
+header{
+background-image: url("images/bgimage.jpg");
+min-height:80vh;
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Poppins', sans-serif;
+padding:1em;
+}
+
+body{
+
+  background-color: #544A44;
+font-family: 'Poppins', sans-serif;
+}
+
+section{
+
+}
+
+.header-content-block {
+  background-color: #544A44;
+  padding: 2em;
+  opacity: 0.8;
+
+}
+
+.header-content-block h1{
+font-size: 4em;
+text-align: center;
+
+
+
+}
+
+.header-content-block p{
+text-align: center;
+}
+
+#bio{
+  text-align: center;
+  padding: 1em;
+  padding-bottom: 4em;
+  text-align: justify;
+  line-height: 1.25em;
+}
+#bio h1{
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+
+}
+
+.bio-content-block p{
+  padding-left: 5em;
+  padding-right: 5em;
+
+}
+
+#comp{
+  background-color: #6F635B;
+text-align: center;
+text-align: justify;
+}
+#comp h1{  font-size: 2em;
+  padding: 1em;
+padding-top: 2em;
+text-align: center;
+}
+
+
+.comp-section-content{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.comp-content{
+  margin: 20px;
+  max-width: 320px;
+background-color: #fff;
+
+}
+
+.comp-content p{
+  padding: 2em;
+  line-height: 1.25em;
+ }
+ .comp-content h2{
+   text-align: center;
+   font-size: 1.5em;
+   padding-top: 1em;
+
+ }
+
+  .comp-content img {
+    width: 100%
+  }
+
+  .comp-content a {
+    display: block;
+    padding: 1em;
+    float: right;
+
+
+  }
+
+#portfolio{
+  background-color: #85776E;
+
+}
+
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portfolio h1{ font-size: 2em;
+  padding: 1em;
+padding-top: 2em;
+text-align: center;}
+
+.portfolio-content-item {
+max-width: 640px;
+border: 4px ;
+}
+
+.portfolio-content-item img {
+  width: 100%;
+}
+
+.portfolio-content-item h2{
+  padding: 3em;
+  text-align: center;
+}
+
+
+.address{
+  padding: 2em;
+text-align: center;
+}
+
+.social-links{  padding: 1em;
+  align-items: center;
+  text-align: center;
+
+}
