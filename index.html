@@ -6,6 +6,15 @@
 <link rel="stylesheet" herf="reset.css">
     <link rel="stylesheet" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="styles/colorbox.css">
+
+
+    </script>
+
+    <script src="script/jquery-3.3.1.min.js"></script>
+    <script src="script/jquery.colorbox-min.js"></script>
+    <script src="script/jquery.lettering.js"></script>
+
 
   </head>
   <body>
@@ -13,7 +22,7 @@
     <header>
 <div class="header-content-block">
 
-  <h1> Alice CLOAREC </h1>
+  <h1 class="fancy_title">ALICE CLOAREC</h1>
   <p>Come visit my world</p>
 
   </div>
@@ -62,28 +71,29 @@
                   <h1>Mon Book</h1>
                   <div class="portfolio-content">
                       <div class="portfolio-content-item">
-                        <img src="images/illu.jpg" alt="Ceci est un article de protfolio">
-                        <h2><a href="#">Créer un mouvement</a></h2>
+                        <img src="images/Illu.jpg" alt="Ceci est un article de protfolio">
+                        <h2><a class="gallery" href="images/illu.jpg">Créer un mouvement</a></h2>
+
                       </div>
                       <div class="portfolio-content-item">
                         <img src="images/cat.jpg" alt="Ceci est un article de protfolio">
-                        <h2><a href="#">Mise en Page Carson</a></h2>
+                        <h2><a class="gallery" href="images/cat.jpg">Mise en Page Carson</a></h2>
                       </div>
                       <div class="portfolio-content-item">
                         <img src="images/bojo.jpg" alt="Ceci est un article de protfolio">
-                        <h2><a href="#">Goodies pour FoodTruck</a></h2>
+                        <h2><a class="gallery" href="images/bojo.jpg">Goodies pour FoodTruck</a></h2>
                       </div>
                       <div class="portfolio-content-item">
                         <img src="images/hibou.jpg" alt="Ceci est un article de protfolio">
-                        <h2><a href="#">Illustration Steampunk</a></h2>
+                        <h2><a class="gallery" href="images/hibou.jpg">Illustration Steampunk</a></h2>
                       </div>
                       <div class="portfolio-content-item">
                         <img src="images/aigle.jpg" alt="Ceci est un article de protfolio">
-                        <h2><a href="#">Dessins pour galber</a></h2>
+                        <h2><a class="gallery" href="images/aigle.jpg">Dessins pour galber</a></h2>
                       </div>
                       <div class="portfolio-content-item">
                         <img src="images/bdx.jpg" alt="Ceci est un article de protfolio">
-                        <h2><a href="#">Illustration de Bordeaux</a></h2>
+                        <h2><a class="gallery" href="images/bdx.jpg">Illustration de Bordeaux</a></h2>
                       </div>
                   </div>
 
@@ -107,6 +117,19 @@
                           </div>
 
                         </footer>
+
+                        <script>
+                       $(document).ready(function() {
+                         $(".fancy_title").lettering();
+                       });
+                 </script>
+
+                        <script>
+                            jQuery(document).ready(function () {
+                              jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+                            });
+                          </script>
+
 
 
 
